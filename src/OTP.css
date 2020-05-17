@@ -1,0 +1,111 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.loginformmain {
+  user-select: none;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+.loginform {
+  width: 350px;
+
+  border-radius: 20px;
+  background-image: linear-gradient(
+    -90deg,
+    rgb(235, 210, 210),
+    rgb(199, 241, 199)
+  );
+}
+.loginformul li {
+  list-style: none;
+  display: inline;
+}
+.loginformul {
+  margin-left: -40px;
+}
+
+.loginformulbutton {
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+.loginformulbutton:hover {
+  background-color: white;
+  color: green;
+}
+
+.dropcode {
+  width: 110px;
+  padding: 10px;
+  outline: none;
+  border-right: none;
+  font-size: 0.9em;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.loginformulinput {
+  width: 150px;
+  padding: 10px;
+  outline: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 1em;
+  box-shadow: none;
+  border: none;
+}
+
+.otpverification {
+  width: 50%;
+  height: 30vh;
+  user-select: none;
+}
+
+.changemob {
+  color: green;
+}
+.changemob:hover {
+  color: red;
+}
+.optv {
+  width: 20px;
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1em;
+  box-shadow: none;
+  border: none;
+}
+.get {
+  width: 50%;
+  height: 30vh;
+  user-select: none;
+  border-radius: 10px;
+}
+.getbtn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  user-select: none;
+}
+.getbtn:hover {
+  background-color: white;
+  color: green;
+}
